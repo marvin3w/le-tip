@@ -1,7 +1,7 @@
 {
     "name": "Le/Tip",
     "short_name": "Le/Tip",
-    "description": "Aplicação para cálculo e divisão de gorjetas em múltiplas moedas, com conversão para BRL.",
+    "description": "Application for calculating and dividing tips in multiple currencies, with conversion to BRL.",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#ffffff",
