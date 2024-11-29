@@ -1,0 +1,38 @@
+{
+    "name": "Le/Tip",
+    "short_name": "Le/Tip",
+    "description": "Aplicação para cálculo e divisão de gorjetas em múltiplas moedas, com conversão para BRL.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#4CAF50",
+    "icons": [
+      {
+        "src": "icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "lang": "pt-BR",
+    "orientation": "portrait",
+    "scope": "/",
+    "categories": ["finance", "utility", "tools"],
+    "screenshots": [
+      {
+        "src": "screenshots/screenshot1.png",
+        "sizes": "640x1136",
+        "type": "image/png"
+      },
+      {
+        "src": "screenshots/screenshot2.png",
+        "sizes": "1280x800",
+        "type": "image/png"
+      }
+    ]
+  }
+  
