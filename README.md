@@ -1,6 +1,28 @@
 # le-tip
 
-This template should help get you started developing with Vue 3 in Vite.
+Application for calculating and dividing tips in multiple currencies, with conversion to BRL.
+
+## Technologies Used
+
+- Vue 3 with Composition API
+- TypeScript
+- Pinia for state management
+- ShadCN Vue for UI components
+- Vite as build tool
+- Vitest for unit testing
+- Cypress for E2E testing
+- Cypress Axe for accessibility testing
+- ESLint and Prettier for code quality
+- SASS for styling
+
+## Development Standards
+
+- Code formatting with Prettier
+- Strict TypeScript checks
+- ESLint rules for Vue and TypeScript
+- E2E and unit test coverage
+- Accessibility compliance testing
+  This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
 
@@ -58,4 +80,16 @@ npm run test:e2e
 
 ```sh
 npm run lint
+```
+
+## Estrutura do Projeto
+
+```sh
+    src/
+  ├── assets/        # Arquivos estáticos
+  ├── components/    # Componentes Vue
+  ├── stores/        # Stores Pinia
+  ├── styles/        # Arquivos SCSS
+  ├── types/         # Definições TypeScript
+  └── utils/         # Utilitários
 ```
