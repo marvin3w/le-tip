@@ -85,11 +85,60 @@ npm run lint
 ## Estrutura do Projeto
 
 ```sh
-    src/
-  ├── assets/        # Arquivos estáticos
-  ├── components/    # Componentes Vue
-  ├── stores/        # Stores Pinia
-  ├── styles/        # Arquivos SCSS
-  ├── types/         # Definições TypeScript
-  └── utils/         # Utilitários
+  le-tip/
+  ├─ .editorconfig
+  ├─ .gitignore
+  ├─ .prettierrc.json
+  ├─ .vscode/                 # VSCode settings
+  │  ├─ extensions.json
+  │  └─ settings.json
+  ├─ README.md                # Project documentation
+  ├─ components.json          # ShadCN Vue settings
+  ├─ cypress/                 # Cypress settings
+  │  ├─ e2e/                      # E2E tests
+  │  │  └─ example.cy.ts
+  │  ├─ fixtures/                 # Test fixtures
+  │  │  └─ example.json
+  │  ├─ support/                  # Cypress configurations
+  │  │  ├─ commands.ts
+  │  │  └─ e2e.ts
+  │  └─ tsconfig.json
+  ├─ cypress.config.ts
+  ├─ env.d.ts
+  ├─ eslint.config.js
+  ├─ index.html
+  ├─ manifest.json
+  ├─ package-lock.json
+  ├─ package.json
+  ├─ public/                 # Public files
+  │  └─ favicon.ico
+  ├─ requisitos.txt
+  ├─ src/                    # Source code
+  │  ├─ App.vue                 # Root component
+  │  ├─ assets/                 # Asset files
+  │  │  ├─ base.css
+  │  │  ├─ index.css
+  │  │  ├─ logo.svg
+  │  │  ├─ main.css
+  │  │  └─ styles/              # Global styles
+  │  │     ├─ _base.scss
+  │  │     ├─ _variables.scss
+  │  │     └─ main.scss
+  │  ├─ components/             # Components
+  │  │  ├─ LeTipHeader.vue
+  │  │  └─ __tests__/
+  │  ├─ composables/            # Composables
+  │  │  └─ useTheme.ts
+  │  ├─ lib/                    # Libraries
+  │  │  └─ utils.ts
+  │  └─ main.ts                 # Entry point
+  ├─ tailwind.config.js
+  ├─ tsconfig.app.json
+  ├─ tsconfig.json
+  ├─ tsconfig.node.json
+  ├─ tsconfig.vitest.json
+  ├─ vite.config.ts
+  └─ vitest.config.ts
+
+
 ```
