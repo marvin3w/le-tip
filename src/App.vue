@@ -1,8 +1,6 @@
 <script setup lang="ts">
-  import { useTheme } from '@/composables/useTheme';
+  import ThemeProvider from '@/components/ThemeProvider.vue';
   import LeTipHeader from '@/components/LeTipHeader.vue';
-
-  useTheme();
 </script>
 
 <template>
